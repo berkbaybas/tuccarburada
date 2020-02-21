@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
+@media only screen and (max-width: 768px) {
+  nav > img {
+    height: 35px;
+    float: left;
+    outline: none;
+  }
+  nav > button:focus {
+    outline: none;
+  }
+  img {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+  }
+  header .navbar-brand {
+    height: 45px;
+    padding: 0px;
+  }
+  header .row .col-md-7 {
+    padding: 4vmin 1vmin;
+  }
+  header a {
+    font-family: var(--Rubik);
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 14rem;
+    height: 17rem;
+  }
+  .numbers .rect p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+  .cards .card-title {
+    font-size: 8vmin;
+  }
+  .section-3 {
+    height: 200vmin;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  nav > img {
+    height: 25px;
+    float: left;
+  }
+  img {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+  }
+  header .navbar-brand {
+    height: 35px;
+    padding: 0px;
+  }
+}
